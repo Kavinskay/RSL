@@ -21,11 +21,14 @@ pi@raspberrypi:~/hubspot $ git config --global user.name "Kavinskay"
 pi@raspberrypi:~/hubspot $ ls -a
 .  ..  .git
 
-####make and edit file 
+####make and edit file  
 pi@raspberrypi:~/hubspot $ gedit README.md
 
-####Adding file to the waiting room
+####Adding a file to the waiting room
 pi@raspberrypi:~/hubspot $ git add README.md
+
+#### adding all files 
+pi@raspberrypi:~/hubspot $ git add --all
 
 ####overview of files waiting to be comitted 
 pi@raspberrypi:~/hubspot $ git status
@@ -88,10 +91,10 @@ Switched to branch 'master'
 pi@raspberrypi:~/hubspot $ git merge lidar-version
 
 ####setting up and checking connection to the cloud 
-pi@raspberrypi:~/hubspot $ git remote add origin kevinseegers123@gmail.com:Kavinskay/hubspot.git
-pi@raspberrypi:~/hubspot $ git remote -v
-origin	kevinseegers123@gmail.com:Kavinskay/hubspot.git (fetch)
-origin	kevinseegers123@gmail.com:Kavinskay/hubspot.git (push)
+pi@raspberrypi:~/RSL $ git remote add origin http://github.com/Kavinskay/RSL.git
+pi@raspberrypi:~/RSL $ git remote -v
+origin	http://github.com/Kavinskay/RSL.git (fetch)
+origin	http://github.com/Kavinskay/RSL.git (push)
 
 ####Removing a origin (when needed)
 pi@raspberrypi:~/hubspot $ git remote rm origin
