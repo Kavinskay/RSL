@@ -1,0 +1,49 @@
+In the first week I've been working with different programmes such as: 
+
+postgrSQL 
+GitHub
+Python 3 
+
+I've also set up an SSH connection to be able to work from my laptop on my RPI 
+
+
+		---CONCLUSIONS--- 
+
+SQL
+The one with 'summary' as predictor gave the best output with 50 movies ranging around rank 0.6
+Though my personal prefference is with 'starring' as this gives some movies (17) with similar actors, which are more my taste.
+With the 'title' I only get one result which is the movie itself, which is logical as it's the only one with that title 
+
+This recommender system works perfectly to recommend some new movies but doesn't include taste in movies very much. 
+It's just based upon corresponding columns which gives some nice outputs but isn't based upon your or anyones opinion.
+
+GitHub
+this is an awesome programme to work with in teams to make sure you don't overwrite code. The tool is used to
+be able to make branches to secure your (already working) code and being able to continue working with it without jeapardizing the master code.
+In this week I've learned the basics and know there is a lot more to know about this programme, i look forward to working with it in 
+groups to see it's full potential.
+
+
+Python 3
+Python is a usefull programme which helps with coding. With the use of Thonny Python IDE i was able to adjust the given code to a 
+usefull recommender system. The loop that was given over range(100) took to long for me so i changed to a different filter with the help 
+of internet which proved quite succesfull. 
+
+In contradiction to the SQL RS this RS is based upon opinions of the authors about certain movies, this RS can be better as long as the 
+Authors taste is in line with yours. The fact that they liked/disliked your favorite movie has a lot of impact on the output. 
+
+
+RECOMMENDER SYSTEMS 
+With the use of Python3 I made a different recommender system than the SQL one, based on author scores. This gives completely different 
+outputs than the SQL one due to the personal oppinion of the authors. Therefor i see the SQL one based on 'starring' as the best one, 
+because when scanning through the output these were movies i know and liked. I think this is due to the fact that actors also have particular movies they play in
+which is in line with my taste. From the Python RS i like some of the Authors (like Schmageggy or Pelen23) choices, here i could apply an extra
+filter on Authors which taste i like to further improve my RS.  
+
+
+
+		--- PROOF ---
+As proof of setting up the RS systems and the GitHub i included my coding files as .sql or .py where my notes and train of tought have been included. 
+ there are also some .txt files which are mainly for my personal use when working with these programmes again but can be seen as prove.
+
+If there are still any uncertainty please contact me on Slack  
